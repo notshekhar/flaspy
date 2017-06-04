@@ -1,0 +1,212 @@
+#head {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: white;
+    background: red;
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    box-shadow: 0px 1px 4px 0px rgba(136, 136, 136, 0.77);
+}
+#new {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	color: white;
+	background: red;
+	border: none;
+    box-shadow: 1px 2px 4px 0px #888888;
+    outline: none;
+	
+}
+form{
+	top: -60px;
+	position: relative;
+}
+#img {
+	position: relative;
+	left:-4px;
+}
+#editnew{
+	display: none;
+	position: fixed;
+	height: 50%;
+	width: 400px;
+	background: white;
+	bottom: 0px;
+	right: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .20);
+	border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+#cont{
+	display: block;
+}
+body{
+	font-family: Tahoma;
+	background: #E9EBEE;
+}
+
+textarea {
+	background: rgba(255, 255, 255, 0.04);
+	color: white;
+	outline: none;
+    width: 90%;
+    resize: ;
+    height: 30%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-width: 2px;
+	border-bottom-color: grey;
+	border-bottom-style: dashed;
+	top: 30px;
+}
+.wrap{
+	top: 20px;
+	position: relative;
+}
+#put {
+    position: absolute;
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: double;
+    border-bottom-color: white;
+    background: rgba(255, 0, 0, 0);
+    color: white;
+    outline: none;
+    height: 50px;
+    top: -20px;
+    font-size: 20px;
+    padding: 10px;
+    left: 100px;
+}
+#nam {
+    position: relative;
+    font-size: 20px;
+    color: white;
+	top: -9px;
+}
+#imag {
+    margin-top: 2px;
+    width: 90%;
+    height: 40px;
+    background: white;
+    border: none;
+	box-shadow: 1px 2px 4px 0px #888888;
+    color: #3f4694;
+
+}
+#sum {
+    margin-top: 2px;
+    width: 90%;
+    height: 40px;
+    background: white;
+    border: none;
+	box-shadow: 1px 2px 4px 0px #888888;
+	color: white;
+	background: green;
+	border-radius: 4px;
+}
+#back{
+	background: url({{ url_for('static', filename="img/back.png") }}) 0 0;
+	height: 50px;
+	width: 50px;
+	left: 83%;
+	position: relative;
+}
+#esc{
+	height: 100px;
+}
+.post{
+	margin-top: 0px;
+	width: 50%;
+	top: 4px;
+	margin: 0 auto;
+    background: white;
+	box-shadow: 0px 2px 3px 0px rgba(136, 136, 136, 0.63);
+	border-radius: 2px;
+    cursor: pointer;
+}
+.im{
+	margin-top: 0px;
+	width: 100%;
+	border: none;
+	margin-bottom: 10px;
+
+}
+.para{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 0px;
+}
+.usr{
+	
+	
+}
+hr{
+	width: 100%;
+}
+.br{
+	margin-bottom: 10px;
+}
+.tosp{
+	height: 4px;
+}
+#cen{
+	position: absolute;
+	bottom: 2px;
+}
+#fix{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+._3PQpfi4b._20OB_GCy {
+    color: white;
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+#hed {
+    height: 100px;
+    width: 100%;
+    background: red;
+}
+@media(max-width: 1000px){
+.post{
+    width: 90%;
+
+}
+.im{
+
+}
+
+#editnew{
+	width: 100%;
+	right: 0px;
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	box-shadow: 2px -1px 14px 0px #888888;
+}
+
+#back{
+	left: 83%;
+}
+
+
+}
+
+
+
+
+[https://www.canva.com/design/DACXDv17DW4/Cw3sHgu31Dh3KT9Xk5BPNQ/edit?layouts=&utm_source=onboarding]
+
+[  <noscript>  <meta http-equiv="refresh" content="0;url=https://mbasic.facebook.com/home.php" />   </noscript> ]
