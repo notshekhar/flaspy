@@ -10,13 +10,32 @@ $('#back').click(function(){
 	$('#new').show(510);
 });		
 
-$('#put').click(function(){
+$('#put').focus(function(){
 	$('#nam').css({
 		"top":"-20px",
 		"font-size":"10px",
 		"transition-duration":"0.4s"
 	});
+
+}).blur(function(){
+	
+if($('#put').val().length > 1){
+	$('#nam').css({
+		"top":"-20px",
+		"font-size":"10px",
+		"transition-duration":"0.4s"
+	});
+}else{
+	$('#nam').css({
+		"top":"-9px",
+		"font-size":"20px",
+		"transition-duration":"0.4s"
+	});
+}
 });
+
+
+
   });
   
  
